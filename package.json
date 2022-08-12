@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/lperez-dev/moviedb-api-bakend/issues"
   },
-  "homepage": "https://github.com/lperez-dev/moviedb-api-bakend#readme"
+  "homepage": "https://github.com/lperez-dev/moviedb-api-bakend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3",
+    "sequelize": "^6.21.3"
+  }
 }
