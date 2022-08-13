@@ -1,5 +1,5 @@
 const express = require('express')
-
+const v1Routes = require('./v1/routes/movies.routes')
 
 const app = express()
 
@@ -17,3 +17,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
     res.send(`<h1>✌ Hello world</h1>`)
 })
+
+app.use('api/v1/movies', v1Routes)
+
+module.exports = app
